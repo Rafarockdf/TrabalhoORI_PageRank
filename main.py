@@ -31,7 +31,7 @@ A página D tem um link para C.
     g.adiciona_aresta(5, 4)
     g.adiciona_aresta(5, 6)
     g.adiciona_aresta(6, 3)
-    '''
+    ''' 
     g.adiciona_aresta(1, 2)
     g.adiciona_aresta(1, 3)
     g.adiciona_aresta(2, 3)
@@ -41,5 +41,5 @@ A página D tem um link para C.
     return g
 
 g = fabrica_grafo_page_rank()
-print(g.get_importanciaInicial())
+print(g.mostra_lista())
 print(g.calcular_pagerank_completo())
